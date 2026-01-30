@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Analyste-Développeur</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-[#0f172a] text-slate-200 font-sans">
+
+    <nav class="fixed w-full z-50 bg-[#0f172a]/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+            <span class="text-xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">Madoché Charbel BLENON</span>
+            <div class="hidden md:flex space-x-8 text-sm uppercase tracking-widest">
+                <a href="#about" class="hover:text-blue-400 transition">À propos</a>
+                <a href="#stack" class="hover:text-blue-400 transition">Skills</a>
+                <a href="#projects" class="hover:text-blue-400 transition">Projets</a>
+                <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="pt-32 pb-20 px-4">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+
+        <div class="w-full md:w-1/3 flex justify-center">
+            <div class="relative group">
+                <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-emerald-500 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+
+                <div class="relative w-64 h-80 md:w-full md:h-[450px] bg-slate-800 rounded-2xl border border-slate-700 overflow-hidden shadow-2xl">
+                    <img
+                        src="photo/madoche.png"
+                        alt="Mr Madoché"
+                        class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500"
+                    >
+                    <div class="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-[#0f172a] to-transparent">
+                        <p class="text-xs font-mono text-blue-400">#OpenToWork</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full md:w-2/3 text-center md:text-left">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+                Développeur & Expert en <br>
+                <span class="text-blue-500">Systèmes Numériques</span>
+            </h1>
+            <p class="text-lg text-slate-400 mb-8 leading-relaxed">
+                Développeur Fullstack et Technicien Supérieur en Systèmes Informatiques. Fort d'une expérience concrète en administration réseau et ingénierie logicielle au sein d'institutions de référence, je me spécialise dans la conception d'architectures applicatives robustes.
+                <br><br>
+                Passionné par la **FinTech** et l'analyse de données, mon objectif est de concevoir des solutions numériques sécurisées pour répondre aux défis de la transformation digitale en Afrique.
+            </p>
+
+            <div class="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+                <a href="#projects" class="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-lg font-bold transition flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-rocket"></i> Voir mes projets
+                </a>
+                <a href="#contact" class="border border-slate-700 hover:bg-slate-800 px-8 py-3 rounded-lg font-bold transition flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-envelope"></i> Me contacter
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <section id="stack" class="py-20 bg-[#1e293b]/50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Stack Technique</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-[#0f172a] rounded-xl border border-slate-800">
+                    <i class="fa-solid fa-code text-blue-500 text-3xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-4 text-blue-400">Développement</h3>
+                    <ul class="space-y-2 text-slate-400">
+                        <li>PHP / Laravel</li>
+                        <li>Python (Data & Automation)</li>
+                        <li>JavaScript / Tailwind CSS</li>
+                    </ul>
+                </div>
+                <div class="p-6 bg-[#0f172a] rounded-xl border border-slate-800">
+                    <i class="fa-solid fa-network-wired text-emerald-500 text-3xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-4 text-emerald-400">Systèmes & Réseaux</h3>
+                    <ul class="space-y-2 text-slate-400">
+                        <li>Supervision (Monitoring)</li>
+                        <li>Administration Réseaux</li>
+                        <li>Maintenance IT</li>
+                    </ul>
+                </div>
+                <div class="p-6 bg-[#0f172a] rounded-xl border border-slate-800">
+                    <i class="fa-solid fa-robot text-purple-500 text-3xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-4 text-purple-400">Creation IA</h3>
+                    <ul class="space-y-2 text-slate-400">
+                        <li>IA video creator</li>
+                        <li>IA chatbot Builder</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold mb-12">Projets</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="group bg-[#1e293b] rounded-2xl overflow-hidden border border-slate-800 hover:border-blue-500 transition">
+                    <div class="h-48 bg-slate-700 overflow-hidden relative">
+                        <div class="absolute inset-0 flex items-center justify-center text-slate-500 italic font-bold text-xl uppercase">Monitoring Réseau</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 uppercase">Plateforme de Supervision</h3>
+                        <p class="text-slate-400 text-sm mb-4 line-clamp-2">Solution de monitoring en temps réel des équipements réseau développée pour mon mémoire de fin de cycle.</p>
+                        <div class="flex gap-2">
+                            <span class="px-3 py-1 bg-blue-500/10 text-blue-500 rounded text-xs">Python</span>
+                            <span class="px-3 py-1 bg-blue-500/10 text-blue-500 rounded text-xs">Réseaux</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="group bg-[#1e293b] rounded-2xl overflow-hidden border border-slate-800 hover:border-emerald-500 transition">
+                    <div class="h-48 bg-slate-700 overflow-hidden relative">
+                        <div class="absolute inset-0 flex items-center justify-center text-slate-500 italic font-bold text-xl uppercase">Gestion Municipale</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2 uppercase">Digitalisation Mairie</h3>
+                        <p class="text-slate-400 text-sm mb-4 line-clamp-2">Optimisation de la collecte de données et maintenance du parc informatique pour la Mairie de Bohicon.</p>
+                        <div class="flex gap-2">
+                            <span class="px-3 py-1 bg-emerald-500/10 text-emerald-500 rounded text-xs">PHP</span>
+                            <span class="px-3 py-1 bg-emerald-500/10 text-emerald-500 rounded text-xs">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-[#0f172a]">
+        <div class="max-w-xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center uppercase">Me Contacter</h2>
+            <form class="space-y-4">
+                <input type="text" placeholder="Nom" class="w-full p-4 bg-[#1e293b] border border-slate-800 rounded-lg focus:outline-none focus:border-blue-500">
+                <input type="email" placeholder="Email" class="w-full p-4 bg-[#1e293b] border border-slate-800 rounded-lg focus:outline-none focus:border-blue-500">
+                <textarea placeholder="Message" rows="5" class="w-full p-4 bg-[#1e293b] border border-slate-800 rounded-lg focus:outline-none focus:border-blue-500"></textarea>
+                <button class="w-full bg-blue-600 hover:bg-blue-700 py-4 rounded-lg font-bold transition uppercase tracking-widest text-sm">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-slate-500 border-t border-slate-800">
+        <p>© 2026 | Madoché Charbel</p>
+    </footer>
+
+</body>
+</html>
