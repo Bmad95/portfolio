@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💻</text></svg>">
     <title>Portfolio | Analyste-Développeur</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -11,7 +12,7 @@
 
     <nav class="fixed w-full z-50 bg-[#0f172a]/80 backdrop-blur-md border-b border-slate-800">
         <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-            <span class="text-xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">Madoché Charbel BLENON</span>
+            <span class="text-xl font-bold bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent">Madoché Charbel</span>
             <div class="hidden md:flex space-x-8 text-sm uppercase tracking-widest">
                 <a href="#about" class="hover:text-blue-400 transition">À propos</a>
                 <a href="#stack" class="hover:text-blue-400 transition">Skills</a>
@@ -59,6 +60,9 @@
                 <a href="#contact" class="border border-slate-700 hover:bg-slate-800 px-8 py-3 rounded-lg font-bold transition flex items-center justify-center gap-2">
                     <i class="fa-solid fa-envelope"></i> Me contacter
                 </a>
+                <a href="assets/Madoche_Blenon_CV.pdf" target="_blank" download="Madoche_Blenon_CV" class="border border-slate-700 hover:bg-slate-800 px-8 py-3 rounded-lg font-bold transition flex items-center justify-center gap-2">
+                   Download CV <i class="fa-solid fa-file-arrow-down"></i>
+                </a>
             </div>
         </div>
 
@@ -99,6 +103,53 @@
         </div>
     </section>
 
+    <section id="services" class="py-20 bg-[#1e293b]/50">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-4 text-center">Mes Services</h2>
+        <p class="text-slate-400 text-center mb-12 max-w-2xl mx-auto">
+            Des solutions numériques sur mesure pour moderniser votre infrastructure et maximiser votre rentabilité.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+            <div class="p-8 bg-[#0f172a] rounded-2xl border border-slate-800 hover:border-blue-500 transition-all duration-300 flex flex-col h-full shadow-lg">
+                <i class="fa-solid fa-layer-group text-blue-500 text-4xl mb-6"></i>
+                <h3 class="text-xl font-bold mb-4">Dév. Web & Mobile</h3>
+                <p class="text-slate-400 text-sm mb-6 flex-grow">
+                    Je conçois des plateformes robustes et des applications intuitives. **L'impact ?** Une présence en ligne 24/7 qui convertit vos visiteurs en clients fidèles et renforce votre crédibilité.
+                </p>
+                <a href="#contact" class="block text-center py-3 px-4 rounded-lg bg-blue-600/10 text-blue-400 border border-blue-600/20 hover:bg-blue-600 hover:text-white transition-all font-semibold">
+                    Lancer mon projet
+                </a>
+            </div>
+
+            <div class="p-8 bg-[#0f172a] rounded-2xl border border-slate-800 hover:border-emerald-500 transition-all duration-300 flex flex-col h-full shadow-lg">
+                <i class="fa-solid fa-share-nodes text-emerald-500 text-4xl mb-6"></i>
+                <h3 class="text-xl font-bold mb-4">Gestion Réseaux Sociaux</h3>
+                <p class="text-slate-400 text-sm mb-6 flex-grow">
+                    Optimisez votre visibilité là où se trouve votre audience. **L'impact ?** Une communauté engagée, une image de marque forte et une augmentation directe du trafic vers vos services.
+                </p>
+                <a href="#contact" class="block text-center py-3 px-4 rounded-lg bg-emerald-600/10 text-emerald-400 border border-emerald-600/20 hover:bg-emerald-600 hover:text-white transition-all font-semibold">
+                    Booster ma visibilité
+                </a>
+            </div>
+
+            <div class="p-8 bg-[#0f172a] rounded-2xl border border-slate-800 hover:border-purple-500 transition-all duration-300 flex flex-col h-full shadow-lg">
+                <i class="fa-solid fa-robot text-purple-500 text-4xl mb-6"></i>
+                <h3 class="text-xl font-bold mb-4">IA Chatbot Builder</h3>
+                <p class="text-slate-400 text-sm mb-6 flex-grow">
+                    Automatisez votre support client et vos ventes avec l'IA. **L'impact ?** Un gain de temps massif, une réactivité instantanée et une réduction de vos coûts opérationnels.
+                </p>
+                <a href="#contact" class="block text-center py-3 px-4 rounded-lg bg-purple-600/10 text-purple-400 border border-purple-600/20 hover:bg-purple-600 hover:text-white transition-all font-semibold">
+                    Automatiser mon business
+                </a>
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+
     <section id="projects" class="py-20 px-4">
         <div class="max-w-6xl mx-auto">
             <h2 class="text-3xl font-bold mb-12">Projets</h2>
@@ -118,13 +169,13 @@
                 </div>
                 <div class="group bg-[#1e293b] rounded-2xl overflow-hidden border border-slate-800 hover:border-emerald-500 transition">
                     <div class="h-48 bg-slate-700 overflow-hidden relative">
-                        <div class="absolute inset-0 flex items-center justify-center text-slate-500 italic font-bold text-xl uppercase">Gestion Municipale</div>
+                        <div class="absolute inset-0 flex items-center justify-center text-slate-500 italic font-bold text-xl uppercase">Gestion de scolarité</div>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2 uppercase">Digitalisation Mairie</h3>
-                        <p class="text-slate-400 text-sm mb-4 line-clamp-2">Optimisation de la collecte de données et maintenance du parc informatique pour la Mairie de Bohicon.</p>
+                        <h3 class="text-xl font-bold mb-2 uppercase">Plateforme de gestion de scolarité</h3>
+                        <p class="text-slate-400 text-sm mb-4 line-clamp-2">Un outil pour les étblissement d'enseignement, pour le suivi et la gestion du paiement de la scolarité de leurs apprenants</p>
                         <div class="flex gap-2">
-                            <span class="px-3 py-1 bg-emerald-500/10 text-emerald-500 rounded text-xs">PHP</span>
+                            <span class="px-3 py-1 bg-emerald-500/10 text-emerald-500 rounded text-xs">Laravel</span>
                             <span class="px-3 py-1 bg-emerald-500/10 text-emerald-500 rounded text-xs">MySQL</span>
                         </div>
                     </div>
@@ -134,20 +185,36 @@
     </section>
 
     <section id="contact" class="py-20 bg-[#0f172a]">
-        <div class="max-w-xl mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-8 text-center uppercase">Me Contacter</h2>
-            <form class="space-y-4">
-                <input type="text" placeholder="Nom" class="w-full p-4 bg-[#1e293b] border border-slate-800 rounded-lg focus:outline-none focus:border-blue-500">
-                <input type="email" placeholder="Email" class="w-full p-4 bg-[#1e293b] border border-slate-800 rounded-lg focus:outline-none focus:border-blue-500">
-                <textarea placeholder="Message" rows="5" class="w-full p-4 bg-[#1e293b] border border-slate-800 rounded-lg focus:outline-none focus:border-blue-500"></textarea>
-                <button class="w-full bg-blue-600 hover:bg-blue-700 py-4 rounded-lg font-bold transition uppercase tracking-widest text-sm">Envoyer</button>
-            </form>
+    <div class="max-w-xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center uppercase">Me Contacter</h2>
+
+    <form id="my-form" action="https://formspree.io/f/mwvbzddz" method="POST" class="space-y-4">
+        <input type="text" name="name" placeholder="Nom" required class="w-full p-4 bg-[#1e293b] border border-slate-800 rounded-lg focus:outline-none focus:border-blue-500 text-white">
+        <input type="email" name="email" placeholder="Email" required class="w-full p-4 bg-[#1e293b] border border-slate-800 rounded-lg focus:outline-none focus:border-blue-500 text-white">
+        <textarea name="message" placeholder="Message" rows="5" required class="w-full p-4 bg-[#1e293b] border border-slate-800 rounded-lg focus:outline-none focus:border-blue-500 text-white"></textarea>
+
+        <button id="my-form-button" type="submit" class="w-full bg-blue-600 hover:bg-blue-700 py-4 rounded-lg font-bold transition uppercase tracking-widest text-sm text-white flex items-center justify-center gap-2">
+            <i class="fa-solid fa-paper-plane"></i> Envoyer le message
+        </button>
+
+        <p id="my-form-status" class="text-center text-sm font-medium mt-4"></p>
+    </form>
+
+        <div class="flex items-center my-8">
+            <div class="flex-grow border-t border-slate-800"></div>
+            <span class="px-4 text-slate-500 text-sm italic">ou</span>
+            <div class="flex-grow border-t border-slate-800"></div>
         </div>
-    </section>
+
+        <a href="https://wa.me/2290195744940" target="_blank" class="w-full bg-emerald-600 hover:bg-emerald-700 py-4 rounded-lg font-bold transition uppercase tracking-widest text-sm text-white flex items-center justify-center gap-2">
+            <i class="fa-brands fa-whatsapp text-xl"></i> Discuter sur WhatsApp
+        </a>
+    </div>
+</section>
 
     <footer class="py-10 text-center text-slate-500 border-t border-slate-800">
         <p>© 2026 | Madoché Charbel</p>
     </footer>
-
+<script src="redirect.js"></script>
 </body>
 </html>
